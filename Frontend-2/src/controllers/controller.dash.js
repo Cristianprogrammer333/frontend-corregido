@@ -22,5 +22,5 @@ export const MostrarDash = (req, res) =>{
         res.render("views.dash.ejs" , {"datos":datos});
         return;
     }
-    res.redirect("/login.html");
+    res.redirect("/index.html");
 };
